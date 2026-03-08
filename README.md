@@ -1,17 +1,46 @@
 # Retail Sales SQL Analysis
 
-This project analyzes a retail sales dataset using SQL.
+## Project Overview
+This project analyzes a retail sales dataset using SQL to understand business performance, customer behavior, and product profitability.
 
-## Objectives
-- Calculate total revenue
-- Identify top customers
-- Find profitable products
-- Detect unsold products
-- Identify inactive customers
+## Dataset Structure
+The database contains three tables:
+
+Customers
+- customer_id
+- name
+
+Products
+- product_id
+- product
+- category
+- cost
+
+Orders
+- order_id
+- customer_id
+- product_id
+- revenue
+
+## Business Questions Answered
+1. What is the total revenue of the business?
+2. Which products generate the most revenue?
+3. Which products generate the highest profit?
+4. Who is the top customer by revenue?
+5. Which products have never been sold?
+6. Which customers have never placed an order?
 
 ## SQL Skills Used
 - JOIN
 - LEFT JOIN
 - GROUP BY
-- SUM
+- Aggregation (SUM)
 - ORDER BY
+- LIMIT
+
+## Key Insights
+- Total revenue: 4200
+- Top customer: Rahul
+- Most profitable product: Jeans
+- Unsold product: Jacket
+- Inactive customers: Aman, Riya
